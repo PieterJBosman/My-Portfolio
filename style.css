@@ -1,7 +1,75 @@
+body {
+    background-image: url(https://i.pinimg.com/236x/3c/f5/97/3cf597697894517704c45c8d90d95cf0.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Momo Signature", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 200px;
+    aspect-ratio: inherit;
+    border-radius: 50%;    
+}
+
 .learning {
     text-decoration: underline;
 }
 
 .TopContainer {
-    background-color: pink;
+    margin: auto;
+    text-align: center;
+}
+
+.MidContainer {
+    margin: auto;
+    width: 60%;
+}
+
+.Hero {
+    width: 75%;
+    margin: auto;
+
+}
+
+.Contact {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.BtmContainer {
+    margin: auto;
+    text-align: center;
+}
+
+.footer-link {
+    padding: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: rgba(47, 192, 200, 0.67);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: italic;
 }
